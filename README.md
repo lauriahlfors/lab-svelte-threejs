@@ -1,38 +1,39 @@
-# sv
+# lab-svelte-threejs
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A lab project to test out three.js in Svelte 5 projects.
 
-## Creating a project
+## Installing and running the project
 
-If you're seeing this, you've probably already done this step. Congrats!
+Clone project
 
 ```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/lauriahlfors/lab-svelte-threejs.git
+cd lab-svelte-threejs
 ```
 
-## Developing
+Install dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm install
+```
 
-```sh
+Run the project locally
+
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+To view the lab projects, go to `host/lab/project-name` for example: `http://localhost:5173/lab/hero`
 
-To create a production version of your app:
+## Current lab project
 
-```sh
-npm run build
-```
+#### Hero
 
-You can preview the production build with `npm run preview`.
+- Three.js scene meant to be displayed as a hero section on a landing page.
+- Can be rescaled to fit different screen sizes, while maintaining a defined aspect ratio.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Disclaimers and stuff
+
+This project was created as a personal resource to learn more about three.js and how to integrate it into Svelte projects. AI such as Google's Gemini and OpenAI's ChatGPT has been used in this project.
+
+Feel free to use this project however you want.
